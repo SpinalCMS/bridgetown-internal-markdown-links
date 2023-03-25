@@ -1,10 +1,14 @@
 # 🔗 Bridgetown Internal Markdown links
 
-This plugin allows you to write paths in your markdown, like so:
+This plugin allows you to write paths in your markdown similar to how you can within liquid, serbea or erb template files, like so:
 
-`[Check out the docs](_pages/docs.erb)`.
+`[Check out the docs](_pages/docs.erb)`
 
-Instead of the page's absolute url (ex. "/docs/"). If the slug is changed for that page, you don't have to go and do a find/replace throughout your site.
+Instead of:
+
+`[Check out the docs](/docs/)`
+
+(and do a find/replace throughout your site, if the slug is changes for that page).
 
 This plugin  uses Bridgetown's `url_for()` helper in the background.
 
