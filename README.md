@@ -8,7 +8,7 @@ Instead of:
 
 `[Check out the docs](/docs/)`
 
-(and do a find/replace throughout your site, if the slug is changes for that page).
+(and do a find/replace throughout your site, if the slug changes for that page).
 
 This plugin  uses Bridgetown's `url_for()` helper in the background.
 
