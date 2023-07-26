@@ -27,7 +27,7 @@ module BridgetownInternalMarkdownLinks
       resource.content.gsub!(MARKDOWN_LINK_REGEX) do
         match = Regexp.last_match
         label = match[1]
-        link = match[2]
+        link = match[2].split(" ").first
 
         if excluding?(link)
           "[#{label}](#{link})"
